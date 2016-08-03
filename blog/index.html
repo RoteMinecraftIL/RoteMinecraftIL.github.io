@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Raleway font */
+      @import 'https://fonts.googleapis.com/css?family=Raleway:300,400,600';
+      /* Body */
+      body {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+      }
+      /* header */
+      header {
+        font-family: 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 3em;
+        width: 100%;
+        color: #00f;
+        background-color: #ff0;
+      }
+      /* a link with no settings */
+      a[none] {
+        color: inherit;
+        text-decoration: none;
+        font: inherit;
+      }
+      /* left align */
+      [left] {
+        text-align: left;
+      }
+      /* the nav bar */
+      nav {
+        width: 100%;
+        font-size: 0.75em;
+        height: 100%;
+        background-color: #efefef; /* to delete */
+      }
+      /* the ul and li */
+      #nav ul {
+        font-family: 'Verdana', 'Arial', sans-serif;
+        list-style-type: none;
+      }
+      #nav li {
+        display: inline;
+      }
+      /* the links */
+      #nav a {
+        font-weight: 400;
+        text-decoration: none;
+        color: #0f0;
+      }
+      /* the current page link */
+      #nav [current] {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 1.1em;
+      }
+      /* Section (Article) */
+      section {
+        background-color: #ffffe5;
+        width: 15% 85%;
+      }
+      /* article title */
+      h2.title {
+        vertical-align: bottom;
+      }
+      /* article description */
+      ar-desc {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 0.65em;
+      }
+      /* the paragraphs */
+      ar-text {
+        font-size: 0.9em;
+      }
+      /* footer */
+      footer {
+        font-size: 0.9em;
+      }
+    </style>
+    <title>RotemDev Blog</title>
+  </head>
+  <body>
+    <header>
+      <a none href="/blog">RotemDev Blog</a>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li current>Updates</li>
+        <li>|</li>
+        <li><a href="#">Minecraft</a></li>
+        <li>|</li>
+        <li><a href="#">Java</a></li>
+        <li>|</li>
+        <li><a href="//rotemdev.github.io/"><font color=#00f>Main Site</font></a>
+        </li>
+      </ul>
+    </nav>
+    <section id="sec">
+      <h2 class="title">New Blog Launched!</h2>
+      <ar-desc>The brand spanking new RotemDev Blog is now released!</ar-desc>
+      <ar-text left>
+        <p>
+          Test Article #1 is the 1<sup><u>st</u></sup> test article!
+        </p>
+        <p>
+          Here, you have a thing! loem ipsum dolor sit amet kawe wikipedia wikimedia
+          wikileeke vuteihrgjws erfs hfru vbnskhrgbnsiufhbn bhfaserhbnf fhruwoeurhf
+          fhdqsl'uih fasrgs spdtyionjvacmipXuosdfj;lnyghblvjmc, rhtseruhf fqre
+          rfgwliuyfhj.
+        </p>
+      </ar-text>
+    </section>
+    <section id="sec2">
+      <h2 class="title">test article #2</h2>
+      <ar-desc>test article #2 for the cwc test file</ar-desc>
+      <ar-text left>
+        <p>
+          Test Article #2 is the 2<sup><u>nd</u></sup> test article!
+        </p>
+        <p>
+          Here, you have another thing! loem ipsum dolor sit amet kawe wikipedia 
+          wikimedia 
+          wikileeke vuteihrgjws erfs hfru vbnskhrgbnsiufhbn bhfaserhbnf fhruwoeurhf
+          fhdqsl'uih
+          fasrgs spdtyionjvacmipXuosdfj;lnyghblvjmc, rhtseruhf
+          fqre rfgwliuyfhj.
+        </p>
+      </ar-text>
+    </section>
+    <footer>
+      <ar-text>
+        <small><b>&copy;</b> <font color="#0000ff"><a none href="https://rotemdev.github.io">RotemDev</a>
+          </font> 2016. All rights reserved.</small><br />
+        <small>Font: <font color="#0000ff"><a none href="https://fonts.google.com/specimen/Raleway">Raleway</a></font>
+          by <font color="#0000ff"><a none href="https://fonts.google.com/">Google Fonts</a></font>.</small>
+      </ar-text>
+    </footer>
+  </body>
+</html>
